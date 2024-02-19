@@ -271,17 +271,18 @@ filter: blur(1px);
 }
 
 /* RESPONSIVO */
-
 @media(max-width: 992px) {
     .section-div img {
         display: none;
     }
+    .section-div div {
+        margin-top: 0px;
+    }
 
     .section-div {
-        background-image: url(img/GabrielMemoliSemFundoPequena.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
     }
 
     header {
@@ -311,6 +312,20 @@ filter: blur(1px);
         border-radius: 0 0 4px 4px;
         right: 20px;
         animation: sobeSecao .8s ease-in-out;
+    }
+    .my_services {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .funfacts ul li{
+        width: 170px !important;
+        height: 125px !important;
+    }
+    .fa-check{
+        padding-right: 10px !important;
+    }
+    .fa-clock{
+        padding-right: 10px !important;
     }
 }
 
